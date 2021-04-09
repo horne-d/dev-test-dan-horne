@@ -1,0 +1,288 @@
+
+/* ----------- */
+/* GENERAL CSS */
+/* ----------- */
+
+
+*, p {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1, h4 {
+    font-family: sharik-sans, sans-serif;
+    color: #007B5A;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+/* ------- */
+/* NAV CSS */
+/* ------- */
+
+.main_nav {
+    background: #007B5A;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.main_nav a,
+.main_nav a:focus,
+.main_nav a:active {
+    color: white;
+}
+
+.main_nav p {
+    line-height: 65px;
+}
+
+nav button {
+    background: white;
+    color: #CF1362;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+/* -------- */
+/* MAIN CSS */
+/* -------- */
+
+.return_home p {
+    font-size: 16px;
+}
+
+.return_home span {
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.gallery_images {
+    margin-top: 28px;
+}
+
+.main_desc p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.total_raised_tab {
+    background: #CF1362;
+    border-radius: 30px;
+    padding: 49px;
+    color: white;
+}
+
+.total_raised_tab h4 {
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.total_raised_tab p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.total_raised_tab button {
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: #CF1362;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 12px;
+    margin: 30px 0;
+}
+
+.social_icons i {
+    margin: 5px 5px;
+    font-size: 28px;
+}
+
+.donations_section, 
+.posts_section,
+.events_section {
+    background: #F0F0F0;
+    border-radius: 40px;
+    padding: 36px;
+    display: table-cell;
+}
+
+.donations_section h3, 
+.posts_section h3,
+.events_section h3 {
+    padding: 0 0 20px 20px;
+    font-family: sharik-sans, sans-serif;
+    color: #666666;
+    font-size: 30px;
+}
+
+.donation,
+.post,
+.event {
+    background: white;
+    margin: 15px 0;
+    border-radius: 40px;
+    padding: 20px 34px;
+}
+
+.donation h1 {
+    margin: 0;
+    color: #CF1362;
+    font-family: sharik-sans, sans-serif;
+    padding: 0 0 7.5px;
+}
+
+.donation p,
+.post p,
+.event p{
+    color: #666666;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7.5px 0;
+}
+
+.donation_message,
+.post_message,
+.event_message {
+    font-weight:100 !important;
+}
+
+.post h4,
+.event h4 {
+    color: #666666;
+    font-size: 24px;
+}
+
+.post_img,
+.event img {
+    width: 100%;
+}
+
+.view_button {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.view_button button,
+.back_button {
+    border: none;
+    background: #CF1362;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+/* ---------- */
+/* FOOTER CSS */
+/* ---------- */
+
+footer {
+    background: #007B5A;
+    color: white;
+    font-family: sharik-sans, sans-serif;
+    margin-top:40px;
+}
+
+footer h1 {
+    color: white;
+    font-size: 50px;
+}
+
+/* ----------- */
+/* GALLERY CSS */
+/* ----------- */
+
+.modal-content {
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.modal-body h4 {
+    color: #CF1362;
+    margin-left: 35px;
+}
+
+.img_gallery {
+    text-align: center;
+}
+
+.img_gallery img {
+    max-width: 60px;
+    margin: 18px;
+}
+
+.gallery_buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.gallery_buttons i {
+    font-size: 12px;
+    color: #adadad;
+    margin: 0 10px;
+}
+
+i.fas.fa-circle.inactive {
+    color: #e8e8e8;
+}
+
+.close_modal {
+    width: 100%;
+    text-align: center;
+    margin-top:15px;
+}
+
+.close_modal button {
+    border: none;
+    background: #CF1362;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+/* ---------- */
+/* MOBILE CSS */
+/* ---------- */
+@media only screen and (max-width: 600px) {
+    .gallery_images {
+        display: none;
+    }
+    .img_gallery {
+        display: flex;
+    }
+    .donations_section, .posts_section, .events_section {
+        display: block;
+    }
+    .posts_section {
+        margin-top: 20px;
+    }
+    .posts_section img {
+        width: 100%;
+    }
+  }
